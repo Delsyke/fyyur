@@ -7,3 +7,4 @@ templates/pages/index.html
 templates/pages/login.html
 data.py
 .env
+error.log
