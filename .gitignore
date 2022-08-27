@@ -1,5 +1,9 @@
-rough.py
 __pycache__/
-rough.py
-index.html
-login.html
+venv/
+README.md
+error.log
+myjson.py
+templates/pages/index.html
+templates/pages/login.html
+data.py
+.env
