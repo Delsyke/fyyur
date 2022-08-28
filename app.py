@@ -29,12 +29,12 @@ app.config.from_object(Config)
 migrate = Migrate(app, db)
 db.init_app(app)
 
-# with app.app_context():
-#      db.create_all()
+with app.app_context():
+    db.create_all()
 # TODO: connect to a local postgresql database
 
 #----------------------------------------------------------------------------#
-# Models.
+# Models. <---- See models file
 #----------------------------------------------------------------------------#
 
 # TODO: implement any missing fields, as a database migration using Flask-Migrate
