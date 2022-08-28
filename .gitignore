@@ -1,10 +1,5 @@
 __pycache__/
-venv/
-README.md
+env/
 error.log
-myjson.py
-templates/pages/index.html
-templates/pages/login.html
-data.py
+data.txt
 .env
-error.log
