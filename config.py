@@ -15,7 +15,7 @@ class Config:
     password = os.environ['PASSWORD']
     SECRET_KEY = os.urandom(32)
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    SQLALCHEMY_DATABASE_URI = f'postgresql://postgres:{password}@localhost:5432/fyur'
+    SQLALCHEMY_DATABASE_URI = f'postgresql://postgres:{password}@localhost:5432/fyyur'
     SESSION_TYPE = "filesystem"
     SESSION_PERMANENT = False
     DEBUG = True
